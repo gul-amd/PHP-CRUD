@@ -14,7 +14,7 @@
     }
 
     else{
-        header('location:index.php?delete_msg=Registro eliminado com sucesso!');
+        header('location:index.php?delete_msg=');
     }
 
 }

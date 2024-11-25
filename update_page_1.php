@@ -64,6 +64,7 @@
             <input type="text" name="n_email" class="form-control" value="<?php echo $row['email']?>">
         </div>
             <input type="submit" class="btn btn-success" name="editar_empresa" value="UPDATE">
+            <a href="index.php" class="btn btn-danger">Voltar</a>
     </form>
 
 

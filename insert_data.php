@@ -22,7 +22,7 @@ if(isset($_POST['adicionar_empresa'])){
         }
 
         else{
-            header('location:index.php?insert_msg=Empresa adicionada com sucesso!');
+            header('location:index.php?insert_msg=');
         }
     }
 

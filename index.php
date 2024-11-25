@@ -3,10 +3,7 @@
 
 <div class="box1">
     <h2>Lista Completa</h2>
-    <button class="btn btn-primary"
-    data-bs-toggle="modal" 
-    data-bs-target="#exampleModal"
-    >Adicionar Cliente</button>
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">Adicionar Cliente</button>
 </div>
 
 <table class="table table-hover table-bordered table-striped">
@@ -86,14 +83,14 @@
 
 <form action="insert_data.php" method="post">
 <div class="modal fade" 
-id="exampleModal" 
+id="Modal" 
 tabindex="-1" 
 aria-labelledby="exampleModalLabel" 
 aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Cadastro Rapido para Empresas</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Registrar Cliente</h1>
         <button type="button" 
         class="btn-close" 
         data-bs-dismiss="modal" 
@@ -114,7 +111,7 @@ aria-hidden="true">
             </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
         <input type="submit" class="btn btn-primary" name="adicionar_empresa" value="Adicionar">
       </div>
     </div>
