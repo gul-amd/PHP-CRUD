@@ -42,7 +42,7 @@
                 }
 
                 else{
-                    header('location:index.php?update_msg=Atualizado com sucesso');
+                    header('location:index.php?update_msg=');
                 }
 
             }
